@@ -15,7 +15,7 @@ $Target = if ([System.Environment]::Is64BitOperatingSystem) {
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = "https://github.com/neucn/ipgw/releases/latest/download/ipgw-${Target}.zip"
+$DownloadURL = "https://github.com/wanghexie/ipgw/releases/latest/download/ipgw-${Target}.zip"
 
 if (!(Test-Path $BinDir)) {
     New-Item $BinDir -ItemType Directory | Out-Null

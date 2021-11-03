@@ -23,7 +23,7 @@ else
 	esac
 fi
 
-download_url="https://github.com/neucn/ipgw/releases/latest/download/ipgw-${target}.zip"
+download_url="https://github.com/wanghexie/ipgw/releases/latest/download/ipgw-${target}.zip"
 
 bin_dir="/usr/local/bin"
 target_path="$bin_dir/ipgw"

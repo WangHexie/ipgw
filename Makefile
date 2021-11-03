@@ -1,12 +1,12 @@
 NAME=ipgw
-REPO=neucn/ipgw
+REPO=wanghexie/ipgw
 MAIN_ENTRY=cmd/ipgw/main.go
 VERSION=$(shell git describe --tags || echo "unknown")
 BUILD=$(shell date +%FT%T%z)
 BUILD_DIR=build
 RELEASE_DIR=release
-GO_BUILD=CGO_ENABLED=0 go build -trimpath -ldflags '-w -s -X "github.com/neucn/ipgw.Version=${VERSION}" \
-		-X "github.com/neucn/ipgw.Build=${BUILD}" -X "github.com/neucn/ipgw.Repo=${REPO}"'
+GO_BUILD=CGO_ENABLED=0 go build -trimpath -ldflags '-w -s -X "github.com/wanghexie/ipgw.Version=${VERSION}" \
+		-X "github.com/wanghexie/ipgw.Build=${BUILD}" -X "github.com/wanghexie/ipgw.Repo=${REPO}"'
 
 .PHONY: clean
 
