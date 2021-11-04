@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strconv"
 
+	"github.com/wanghexie/neugo"
 	"github.com/wanghexie/ipgw/pkg/model"
 	"github.com/wanghexie/ipgw/pkg/utils"
-	"github.com/neucn/neugo"
 )
 
 type DashboardHandler struct {

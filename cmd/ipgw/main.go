@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/neucn/ipgw/pkg/cmd"
-	"github.com/neucn/ipgw/pkg/console"
+	"github.com/wanghexie/ipgw/pkg/cmd"
+	"github.com/wanghexie/ipgw/pkg/console"
 	"os"
 )
 

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/wanghexie/neugo"
 	"github.com/wanghexie/ipgw/pkg/model"
 	"github.com/wanghexie/ipgw/pkg/utils"
-	"github.com/neucn/neugo"
 )
 
 var (
