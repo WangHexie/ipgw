@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/neucn/ipgw/pkg/model"
-	"github.com/neucn/ipgw/pkg/utils"
+	"github.com/wanghexie/ipgw/pkg/model"
+	"github.com/wanghexie/ipgw/pkg/utils"
 	"os"
 )
 

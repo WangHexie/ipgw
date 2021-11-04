@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/neucn/ipgw/pkg/console"
-	"github.com/neucn/ipgw/pkg/handler"
+	"github.com/wanghexie/ipgw/pkg/console"
+	"github.com/wanghexie/ipgw/pkg/handler"
 	"github.com/urfave/cli/v2"
 )
 

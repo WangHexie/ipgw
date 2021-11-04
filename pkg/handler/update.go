@@ -3,9 +3,9 @@ package handler
 import (
 	"errors"
 	"fmt"
-	"github.com/neucn/ipgw"
-	"github.com/neucn/ipgw/pkg/console"
-	"github.com/neucn/ipgw/pkg/utils"
+	"github.com/wanghexie/ipgw"
+	"github.com/wanghexie/ipgw/pkg/console"
+	"github.com/wanghexie/ipgw/pkg/utils"
 	"io"
 	"net/http"
 	"os"

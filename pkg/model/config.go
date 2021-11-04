@@ -1,6 +1,6 @@
 package model
 
-import "github.com/neucn/ipgw/pkg/utils"
+import "github.com/wanghexie/ipgw/pkg/utils"
 
 type Config struct {
 	DefaultAccount string     `json:"default_account"`

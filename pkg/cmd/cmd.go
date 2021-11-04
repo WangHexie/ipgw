@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/neucn/ipgw/pkg/console"
-	"github.com/neucn/ipgw/pkg/handler"
-	"github.com/neucn/ipgw/pkg/model"
+	"github.com/wanghexie/ipgw/pkg/console"
+	"github.com/wanghexie/ipgw/pkg/handler"
+	"github.com/wanghexie/ipgw/pkg/model"
 	"github.com/urfave/cli/v2"
 )
 

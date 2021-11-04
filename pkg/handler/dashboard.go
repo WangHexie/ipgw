@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/neucn/ipgw/pkg/model"
-	"github.com/neucn/ipgw/pkg/utils"
+	"github.com/wanghexie/ipgw/pkg/model"
+	"github.com/wanghexie/ipgw/pkg/utils"
 	"github.com/neucn/neugo"
 )
 

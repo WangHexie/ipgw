@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/neucn/ipgw/pkg/console"
+	"github.com/wanghexie/ipgw/pkg/console"
 	"github.com/urfave/cli/v2"
 )
 

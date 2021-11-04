@@ -1,4 +1,4 @@
-module github.com/neucn/ipgw
+module github.com/wanghexie/ipgw
 
 go 1.16
 

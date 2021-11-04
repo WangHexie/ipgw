@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"github.com/neucn/ipgw/pkg/utils"
+	"github.com/wanghexie/ipgw/pkg/utils"
 )
 
 type Account struct {
