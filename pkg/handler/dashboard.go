@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/wanghexie/neugo"
+	"github.com/neucn/neugo"
 	"github.com/wanghexie/ipgw/pkg/model"
 	"github.com/wanghexie/ipgw/pkg/utils"
 )
